@@ -7,7 +7,7 @@ const ContactUs = () => {
       <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
         Get in Touch
       </h2>
-      <p className="text-gray-600 text-base md:text-lg max-w-2xl mb-10">
+      <p className="text-gray-600 text-base md:text-lg max-w-2xl mb-10 font-Poppins">
         Whether you're looking to build a project, hire a team, or simply want to know more about our services, we'd love to hear from you.
       </p>
 

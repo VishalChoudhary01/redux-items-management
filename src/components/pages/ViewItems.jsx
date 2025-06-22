@@ -52,7 +52,7 @@ const ViewItems = () => {
       <h2 className="text-2xl font-semibold text-gray-800 mb-6">
         List of Items
       </h2>
-      <div className="flex gap-2.5">
+      <div className="flex gap-2.5 ">
         {items.map(item => (
           <div
             key={item.id}

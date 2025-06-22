@@ -164,7 +164,8 @@ const AddItems = () => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto p-6 bg-white rounded-xl shadow-lg">
+    <div className='w-full pt-12 pb-32'>
+    <div className="max-w-7xl mx-auto  bg-white rounded-xl shadow-lg p-8">
       <h2 className="text-2xl font-bold text-gray-800 mb-6 pb-2 border-b">Add New Item</h2>
       
       <form onSubmit={handleSubmit}>
@@ -363,6 +364,7 @@ const AddItems = () => {
           </Button>
         </div>
       </form>
+    </div>
     </div>
   );
 };
