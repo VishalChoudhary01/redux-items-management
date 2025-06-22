@@ -52,7 +52,8 @@ const ViewItems = () => {
       <h2 className="text-2xl font-semibold text-gray-800 mb-6">
         List of Items
       </h2>
-      <div className="flex gap-2.5 flex-wrap  ">
+      {/* <div className="flex gap-2.5 flex-wrap md:justify-start justify-center "> */}
+      <div className="grid xl:grid-cols-8 lg:grid-cols-7 md:grid-cols-4 grid-cols-2 lg:gap-3.5 md:gap-3 gap-2   ">
         {items.map(item => (
           <div
             key={item.id}
@@ -68,7 +69,7 @@ const ViewItems = () => {
       </div>
       {openModal && (
   <Modal handleModalToggle={handleModalToggle}>
-    <div className="md:w-[20rem] w-[95%]">
+    <div className="lg:w-[24rem] md:w-[20rem] w-[90%]">
       <h2 className="text-xl font-bold mb-2 font-Poppins">{selectedItem.name}</h2>
       <p className="md:text-[0.9rem]  font-Lato">
         <strong>Type:</strong> <span className="md:text-[0.85rem]">{selectedItem.type}</span> 
