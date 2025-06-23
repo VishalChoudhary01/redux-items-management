@@ -53,7 +53,7 @@ const ViewItems = () => {
         List of Items
       </h2>
       {/* <div className="flex gap-2.5 flex-wrap md:justify-start justify-center "> */}
-      <div className="grid xl:grid-cols-8 lg:grid-cols-7 md:grid-cols-4 grid-cols-2 lg:gap-3.5 md:gap-3 gap-2   ">
+      <div className="grid xl:grid-cols-7 lg:grid-cols-6 md:grid-cols-4 grid-cols-2 lg:gap-3.5 md:gap-3 gap-2   ">
         {items.map((item) => (
           <div
             key={item.id}
